@@ -1,14 +1,9 @@
-﻿using System.Reflection;
-
-namespace StockMax
+﻿namespace StockMax
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Environment.CurrentDirectory);
-            Console.WriteLine(System.IO.Directory.GetCurrentDirectory());
-            Console.ReadLine();
         }
 
         public static long StockMax(List<int> prices)
